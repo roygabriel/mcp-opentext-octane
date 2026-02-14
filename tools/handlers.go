@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/mark3labs/mcp-go/mcp"
-	"github.com/rgabriel/mcp-octane/octane"
+	"github.com/roygabriel/mcp-opentext-octane/octane"
 )
 
 // GetEntityHandler creates a handler that retrieves a single entity by ID.

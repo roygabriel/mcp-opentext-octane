@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rgabriel/mcp-octane/config"
+	"github.com/roygabriel/mcp-opentext-octane/config"
 )
 
 // MockHTTPBackend implements HTTPBackend for testing.

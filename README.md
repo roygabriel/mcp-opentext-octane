@@ -1,4 +1,4 @@
-# mcp-octane
+# mcp-opentext-octane
 
 > **Early Alpha** — This project is under active development and not yet production-ready. APIs, tool schemas, and behavior may change without notice. Use at your own risk.
 
@@ -22,14 +22,14 @@ A [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) server that e
 ## Installation
 
 ```bash
-go install github.com/roygabriel/mcp-octane@latest
+go install github.com/roygabriel/mcp-opentext-octane@latest
 ```
 
 Or build from source:
 
 ```bash
-git clone https://github.com/roygabriel/mcp-octane.git
-cd mcp-octane
+git clone https://github.com/roygabriel/mcp-opentext-octane.git
+cd mcp-opentext-octane
 make build
 ```
 
@@ -70,7 +70,7 @@ Add to your MCP settings:
 {
   "mcpServers": {
     "octane": {
-      "command": "/path/to/mcp-octane",
+      "command": "/path/to/mcp-opentext-octane",
       "env": {
         "OCTANE_URL": "https://octane.example.com",
         "OCTANE_SHARED_SPACE_ID": "1001",
@@ -183,7 +183,7 @@ Build and run with Docker:
 
 ```bash
 # Build
-docker build -t mcp-octane:latest .
+docker build -t mcp-opentext-octane:latest .
 
 # Or via Makefile
 make docker
@@ -221,7 +221,7 @@ This installs `golangci-lint` and `govulncheck`.
 ### Project Structure
 
 ```
-mcp-octane/
+mcp-opentext-octane/
 ├── config/
 │   ├── config.go          # Environment-based configuration
 │   └── config_test.go

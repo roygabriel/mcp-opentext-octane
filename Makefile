@@ -1,6 +1,6 @@
 VERSION ?= $(shell git describe --tags --always --dirty 2>/dev/null || echo "dev")
 LDFLAGS := -ldflags "-s -w -X main.version=$(VERSION)"
-BINARY := mcp-octane
+BINARY := mcp-opentext-octane
 
 .PHONY: all build test cover vet lint clean run docker tools vuln
 

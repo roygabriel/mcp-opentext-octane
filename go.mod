@@ -1,4 +1,4 @@
-module github.com/rgabriel/mcp-octane
+module github.com/roygabriel/mcp-opentext-octane
 
 go 1.25
 

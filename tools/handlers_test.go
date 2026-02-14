@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/mark3labs/mcp-go/mcp"
-	"github.com/rgabriel/mcp-octane/octane"
+	"github.com/roygabriel/mcp-opentext-octane/octane"
 )
 
 func req(args map[string]interface{}) mcp.CallToolRequest {

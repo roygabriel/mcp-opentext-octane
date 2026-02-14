@@ -13,9 +13,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/mark3labs/mcp-go/mcp"
 	"github.com/mark3labs/mcp-go/server"
-	"github.com/rgabriel/mcp-octane/config"
-	"github.com/rgabriel/mcp-octane/octane"
-	"github.com/rgabriel/mcp-octane/tools"
+	"github.com/roygabriel/mcp-opentext-octane/config"
+	"github.com/roygabriel/mcp-opentext-octane/octane"
+	"github.com/roygabriel/mcp-opentext-octane/tools"
 )
 
 var version = "dev"

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/rgabriel/mcp-octane/octane"
+	"github.com/roygabriel/mcp-opentext-octane/octane"
 )
 
 // MockOctaneService implements OctaneService for testing.

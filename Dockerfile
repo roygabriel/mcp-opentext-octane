@@ -6,11 +6,11 @@ RUN go mod download
 COPY . .
 
 ARG VERSION=dev
-RUN CGO_ENABLED=0 go build -ldflags "-s -w -X main.version=${VERSION}" -o /mcp-octane .
+RUN CGO_ENABLED=0 go build -ldflags "-s -w -X main.version=${VERSION}" -o /mcp-opentext-octane .
 
 FROM gcr.io/distroless/static-debian12:nonroot
 
-COPY --from=builder /mcp-octane /mcp-octane
+COPY --from=builder /mcp-opentext-octane /mcp-opentext-octane
 
 USER nonroot:nonroot
-ENTRYPOINT ["/mcp-octane"]
+ENTRYPOINT ["/mcp-opentext-octane"]

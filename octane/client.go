@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/rgabriel/mcp-octane/config"
+	"github.com/roygabriel/mcp-opentext-octane/config"
 )
 
 // HTTPBackend abstracts HTTP calls for testability.

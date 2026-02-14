@@ -3,7 +3,7 @@ package tools
 import (
 	"context"
 
-	"github.com/rgabriel/mcp-octane/octane"
+	"github.com/roygabriel/mcp-opentext-octane/octane"
 )
 
 // OctaneReader defines read-only Octane operations.
