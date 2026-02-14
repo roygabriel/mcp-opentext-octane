@@ -1,5 +1,34 @@
+# Binaries
 mcp-opentext-octane
-coverage.out
+mcp-opentext-octane-*
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Coverage
+*.out
 coverage.html
+report.json
+
+# Environment
 .env
-docs/notes/
+
+# Go workspace
+go.work
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+docs/
